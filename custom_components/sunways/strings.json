@@ -1,0 +1,74 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured",
+            "reauth_successful": "Re-authentication was successful"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "no_stations_found": "No station found which the user can manage.",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Password",
+                    "email": "Email",
+                    "initial_token": "Initial Token (optional)"
+                },
+                "description": "The provided credentials have stopped working. Please update them.",
+                "title": "Update Sunways Credentials"
+            },
+            "station_id": {
+                "data": {
+                    "station_id": "Station"
+                },
+                "title": "Choose which station to manage"
+            },
+            "user": {
+                "data": {
+                    "password": "Password",
+                    "email": "Email",
+                    "initial_token": "Initial Token (optional)"
+                },
+                "data_description": {},
+                "description": "Enter the login details for the Sunways API."
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "solar_power": {
+                "name": "Solar power"
+            },
+            "installed_power": {
+                "name": "Installed power"
+            },
+            "efficiency": {
+                "name": "Efficiency"
+            },
+            "load_power": {
+                "name": "Load power"
+            },
+            "grid_power_consumption": {
+                "name": "Grid power consumption"
+            },
+            "grid_power_return": {
+                "name": "Grid power return"
+            },
+            "daily_generation": {
+                "name": "Daily generation"
+            },
+            "monthly_generation": {
+                "name": "Monthly generation"
+            },
+            "yearly_generation": {
+                "name": "Yearly generation"
+            },
+            "total_generation": {
+                "name": "Total generation"
+            }
+        }
+    }
+}

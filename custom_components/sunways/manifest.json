@@ -1,0 +1,10 @@
+{
+  "domain": "sunways",
+  "name": "Sunways",
+  "codeowners": ["@adamus.tork"],
+  "config_flow": true,
+  "documentation": "https://github.com/adamus-tork/home-assistant-sunways",
+  "issue_tracker": "https://github.com/adamus-tork/home-assistant-sunways/issues",
+  "iot_class": "cloud_polling",
+  "version": "0.0.1"
+}
